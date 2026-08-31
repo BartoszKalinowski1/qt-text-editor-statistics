@@ -26,6 +26,22 @@ Project demonstrating GUI development in Qt Creator, object-oriented programming
 
 ---
 
+## Screenshots
+
+### Main window with multiple tabs
+![Main window](docs/main_window_screenshot.png)
+
+### Analysis mode selection dialog
+![Analysis mode dialog](docs/dialog_window_screenshot.png)
+
+### Basic statistics report
+![Basic statistics](docs/basic_stats_screenshot.png)
+
+### Advanced statistics report (with duplicate words)
+![Advanced statistics](docs/advanced_stats_screenshot.png)
+
+---
+
 ## Architecture
 
 ```
@@ -69,6 +85,3 @@ advancedstats : public stats   (derived class)
 2. Select the appropriate kit (e.g. Desktop Qt 6.7.3 MinGW 64-bit)
 3. Build: `Ctrl+B`
 4. Run: `Ctrl+R`
-
----
-
